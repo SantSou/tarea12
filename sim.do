@@ -1,4 +1,4 @@
 noview wave
 vsim work.MIPS_Processor_TB
-do D:/Documentos/ITESO/Quartus/tarea11/wave.do
+do F:/Documents/ITESO/Quartus/tarea12/wave.do
 run 200

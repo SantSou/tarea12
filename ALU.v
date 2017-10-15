@@ -49,9 +49,9 @@ localparam LSHIFT = 4'b0110;
 		  NOR: // sub
 			ALUResult=~(A | B);
 		  LSHIFT:
-			ALUResult=A<<shamt;
+			ALUResult=B<<shamt;//Rs=T, Rs=A
 		  RSHIFT:
-			ALUResult=A>>shamt;
+			ALUResult=B>>shamt;
 		default:
 			ALUResult= 0;
 		endcase // case(control)
